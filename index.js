@@ -1,5 +1,5 @@
 let a='hello';
-let b=`murali`;
+let  b=`murali`;
 var str="        my         name is murali           "
 console.log(a.length);
 //return the length of the string
