@@ -18,7 +18,7 @@ console.log(str.indexOf('murali'));
 //ouput:11
 console.log(str.lastIndexOf('murali'));
 //returns the lastindex of the given character/string
-//ouput:11
+//ouput:11 
 console.log(a.repeat(2));
 //repeats the string for the number of times in given input
 //ouput:hellohello
@@ -83,7 +83,7 @@ console.log(a1);
 var m1='210';
 var m4=2.33444;
 var m3=210;
-
+var m10='12223dsyd'
 
 console.error(m3);
 //displays the error message we are passing as input
@@ -113,7 +113,7 @@ console.info('Murali')
 //Interrupts the window and asks to press a key
 //output :alert box with ok key
 
-console.log(Number(m1));
+console.log(Number(m3));
 //converts the object to a number that represents the object's value
 //output:210(number)
 
@@ -121,16 +121,16 @@ console.log(isNaN(m1));
 //return boolean based on whether the input is number or not
 //output:false
 
-var m5=parseFloat(m1)
+var m5=parseFloat(m10)
 console.log(m5);
 //converts the given string into float
-//output:210(float)
+//output:12223(float)
 
-var m2=parseInt(m1);
+var m2=parseInt(m10);
 console.log(m1);
 console.log(m2);
 //it parses the given string and converts it into an integer
-//210(integer)
+//12223(integer)
 
 var m6=String(m3);
 console.log(m6);
